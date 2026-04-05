@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASAPio — онлайн-запис для бізнесів</title>
+  <meta name="description" content="ASAPio — універсальний сервіс онлайн-запису для бізнесів і клієнтів." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Демо-версія корпоративного сайту ASAPio</span>
+      <button class="lang-switch" type="button" id="langToggle" aria-label="Перемикач мови">UA <span>/</span> EN</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="ASAPio home">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">
+          <strong>ASAPio</strong>
+          <small>smart booking platform</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#about">Про сервіс</a>
+        <a href="#advantages">Переваги</a>
+        <a href="#how">Як це працює</a>
+        <a href="#pricing">Тарифи</a>
+        <a href="#contact">Контакти</a>
+        <a class="nav-secondary" href="clients.html">Для клієнтів</a>
+      </nav>
+
+      <button class="menu-btn" type="button" id="menuBtn" aria-label="Відкрити меню">☰</button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">Про сервіс</a>
+      <a href="#advantages">Переваги</a>
+      <a href="#how">Як це працює</a>
+      <a href="#pricing">Тарифи</a>
+      <a href="#contact">Контакти</a>
+      <a href="clients.html">Для клієнтів</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Універсальний онлайн-запис для будь-яких послуг</span>
+          <h1>ASAPio допомагає бізнесу приймати записи швидко, зручно і без зайвих дзвінків.</h1>
+          <p>
+            Один сервіс для салонів, лікарів, репетиторів, майстрів і будь-яких спеціалістів, яким потрібен
+            сучасний спосіб працювати з розкладом, заявками та клієнтами.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#demoForm">Спробувати демо</a>
+            <a class="btn btn-outline" href="clients.html">Перейти на сторінку клієнтів</a>
+          </div>
+
+          <ul class="hero-points">
+            <li>24/7 онлайн-запис</li>
+            <li>гнучкі послуги та графік</li>
+            <li>нагадування і підтвердження</li>
+          </ul>
+        </div>
+
+        <div class="hero-card glass-card">
+          <div class="mini-app">
+            <div class="mini-header">
+              <span class="pill">Онлайн</span>
+              <span class="mini-date">Сьогодні</span>
+            </div>
+            <h3>Панель записів</h3>
+            <div class="booking-list">
+              <div class="booking-item">
+                <strong>10:00</strong>
+                <div>
+                  <p>Консультація</p>
+                  <span>Новий клієнт</span>
+                </div>
+              </div>
+              <div class="booking-item accent">
+                <strong>12:30</strong>
+                <div>
+                  <p>Онлайн-урок</p>
+                  <span>Підтверджено</span>
+                </div>
+              </div>
+              <div class="booking-item">
+                <strong>15:00</strong>
+                <div>
+                  <p>Індивідуальна послуга</p>
+                  <span>Оплата очікується</span>
+                </div>
+              </div>
+            </div>
+            <div class="mini-footer">
+              <span>Записів сьогодні: 14</span>
+              <span class="up">+18%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <article class="stat-card">
+          <h2>1 сервіс</h2>
+          <p>для різних типів бізнесу і різних форматів запису</p>
+        </article>
+        <article class="stat-card">
+          <h2>24/7</h2>
+          <p>можливість запису для клієнтів без дзвінків і повідомлень</p>
+        </article>
+        <article class="stat-card">
+          <h2>3 кроки</h2>
+          <p>щоб прийняти заявку, підтвердити час і отримати клієнта</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div>
+          <span class="section-tag">Про сервіс</span>
+          <h2>ASAPio — це корпоративний сайт і сервіс для організації запису онлайн.</h2>
+        </div>
+        <div>
+          <p>
+            Платформа допомагає бізнесам автоматизувати запис клієнтів, показувати доступні послуги,
+            керувати часом спеціалістів та приймати заявки в одному зручному інтерфейсі.
+          </p>
+          <p>
+            Головна ідея ASAPio — універсальність: сервіс адаптується під різні сфери, тому користувачі можуть
+            самі обирати послуги, час і формат взаємодії, який їм підходить найбільше.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="advantages">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Переваги</span>
+          <h2>Що отримує бізнес із ASAPio</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="info-card">
+            <h3>Менше ручної роботи</h3>
+            <p>Клієнти самостійно обирають послугу, дату і час, а бізнес не витрачає зайвий ресурс на уточнення.</p>
+          </article>
+          <article class="info-card">
+            <h3>Гнучкість</h3>
+            <p>Підходить для студій, приватних спеціалістів, навчальних послуг, консультацій і сервісних команд.</p>
+          </article>
+          <article class="info-card">
+            <h3>Сучасний вигляд</h3>
+            <p>Зручний, спокійний інтерфейс підвищує довіру до бренду і робить запис інтуїтивно зрозумілим.</p>
+          </article>
+          <article class="info-card">
+            <h3>Нагадування</h3>
+            <p>Система може надсилати підтвердження запису та допомагати зменшити кількість пропущених візитів.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Як це працює</span>
+          <h2>Простий сценарій для компанії та клієнта</h2>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card">
+            <span>01</span>
+            <h3>Бізнес створює сторінку</h3>
+            <p>Додає послуги, опис, тривалість запису, вартість та графік доступності.</p>
+          </article>
+          <article class="step-card">
+            <span>02</span>
+            <h3>Клієнт обирає час</h3>
+            <p>Користувач бачить доступні слоти, залишає контактні дані і надсилає заявку.</p>
+          </article>
+          <article class="step-card">
+            <span>03</span>
+            <h3>Система підтверджує запис</h3>
+            <p>Бізнес отримує інформацію про заявку, а клієнт — зручне підтвердження.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="pricing">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Тарифи</span>
+          <h2>Модель підключення для різних масштабів бізнесу</h2>
+          <p>Я додав тарифи, бо для корпоративного сайту SaaS-сервісу це виглядає логічно і краще пояснює цінність продукту.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Start</h3>
+            <div class="price">0 ₴<span>/ демо</span></div>
+            <ul>
+              <li>1 сторінка запису</li>
+              <li>до 3 послуг</li>
+              <li>демонстраційний доступ</li>
+            </ul>
+            <button class="btn btn-outline full" data-plan="Start">Обрати</button>
+          </article>
+          <article class="price-card featured">
+            <div class="featured-badge">Популярний</div>
+            <h3>Pro</h3>
+            <div class="price">299 ₴<span>/ міс</span></div>
+            <ul>
+              <li>необмежені послуги</li>
+              <li>онлайн-підтвердження</li>
+              <li>нагадування клієнтам</li>
+            </ul>
+            <button class="btn btn-primary full" data-plan="Pro">Обрати</button>
+          </article>
+          <article class="price-card">
+            <h3>Business</h3>
+            <div class="price">699 ₴<span>/ міс</span></div>
+            <ul>
+              <li>декілька спеціалістів</li>
+              <li>аналітика та звіти</li>
+              <li>розширене адміністрування</li>
+            </ul>
+            <button class="btn btn-outline full" data-plan="Business">Обрати</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demoForm">
+      <div class="container form-layout">
+        <div>
+          <span class="section-tag">Демо-заявка</span>
+          <h2>Залиште заявку на підключення ASAPio</h2>
+          <p>
+            Це навчальний, але інтерактивний макет: форма перевіряє поля й показує повідомлення про успішне надсилання.
+          </p>
+        </div>
+
+        <form class="demo-form" id="bookingForm" novalidate>
+          <div class="form-group">
+            <label for="name">Ім’я</label>
+            <input id="name" name="name" type="text" placeholder="Ваше ім’я" required />
+            <small class="error"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="contactValue">Телефон або email</label>
+            <input id="contactValue" name="contactValue" type="text" placeholder="Телефон або email" required />
+            <small class="error"></small>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Дата</label>
+              <input id="date" name="date" type="date" required />
+              <small class="error"></small>
+            </div>
+            <div class="form-group">
+              <label for="time">Час</label>
+              <input id="time" name="time" type="time" required />
+              <small class="error"></small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Послуга</label>
+            <select id="service" name="service" required>
+              <option value="">Оберіть послугу</option>
+              <option value="Консультація">Консультація</option>
+              <option value="Навчальна послуга">Навчальна послуга</option>
+              <option value="Сервісне обслуговування">Сервісне обслуговування</option>
+              <option value="Індивідуальний запис">Індивідуальний запис</option>
+            </select>
+            <small class="error"></small>
+          </div>
+
+          <button class="btn btn-primary full" type="submit">Надіслати заявку</button>
+          <p class="form-note">* Це демонстраційна форма для навчального проєкту.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="section-tag">Контакти</span>
+          <h2>Готові показати ASAPio у дії</h2>
+          <p>Зв’яжіться з нами, щоб отримати демонстрацію сервісу та приклад сторінки запису для вашого бізнесу.</p>
+        </div>
+        <div class="contact-card">
+          <p><strong>Email:</strong> hello@asapio.demo</p>
+          <p><strong>Телефон:</strong> +380 (00) 123-45-67</p>
+          <p><strong>Формат:</strong> онлайн-консультація або демонстрація платформи</p>
+          <a class="btn btn-outline full" href="clients.html">Подивитися клієнтську сторінку</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>ASAPio</strong>
+        <p>Універсальний сервіс онлайн-запису для бізнесів і клієнтів.</p>
+      </div>
+      <div class="footer-note">
+        © Лобанова Катерина, 2026, k.lobanova_femp_14_22_b_d@knute.edu.ua
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

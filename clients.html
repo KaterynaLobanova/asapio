@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASAPio — для клієнтів</title>
+  <meta name="description" content="ASAPio — сторінка для клієнтів, які хочуть швидко знайти послугу та записатися онлайн." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Клієнтська сторінка ASAPio</span>
+      <button class="lang-switch" type="button" id="langToggle" aria-label="Перемикач мови">UA <span>/</span> EN</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="ASAPio home">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">
+          <strong>ASAPio</strong>
+          <small>smart booking platform</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Для бізнесів</a>
+        <a href="#services">Послуги</a>
+        <a href="#why">Чому зручно</a>
+        <a href="#book">Запис</a>
+      </nav>
+
+      <button class="menu-btn" type="button" id="menuBtn" aria-label="Відкрити меню">☰</button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Для бізнесів</a>
+      <a href="#services">Послуги</a>
+      <a href="#why">Чому зручно</a>
+      <a href="#book">Запис</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero compact-hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Сторінка для користувачів сервісу</span>
+          <h1>Оберіть послугу, спеціаліста і зручний час без зайвих дзвінків.</h1>
+          <p>
+            ASAPio створений так, щоб клієнт міг швидко знайти потрібну послугу, побачити доступні слоти та
+            залишити заявку за кілька хвилин.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#book">Записатися</a>
+            <a class="btn btn-outline" href="index.html">Повернутись на сторінку бізнесу</a>
+          </div>
+        </div>
+
+        <div class="glass-card client-preview">
+          <div class="service-preview">
+            <h3>Доступні послуги</h3>
+            <div class="service-chip-row">
+              <button class="service-chip active" type="button">Консультація</button>
+              <button class="service-chip" type="button">Краса</button>
+              <button class="service-chip" type="button">Навчання</button>
+              <button class="service-chip" type="button">Сервіс</button>
+            </div>
+            <div class="slots">
+              <button type="button">09:30</button>
+              <button type="button" class="chosen">11:00</button>
+              <button type="button">13:30</button>
+              <button type="button">16:00</button>
+            </div>
+            <p class="mini-muted">Користувач обирає той формат послуги, який зручний саме йому.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Категорії</span>
+          <h2>Приклади послуг, які можна бронювати через ASAPio</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="info-card">
+            <h3>Краса та догляд</h3>
+            <p>Салони, косметологи, бровісти, майстри манікюру та інші послуги догляду.</p>
+          </article>
+          <article class="info-card">
+            <h3>Медицина та консультації</h3>
+            <p>Приватні лікарі, психологи, консультанти, фахівці різних напрямів.</p>
+          </article>
+          <article class="info-card">
+            <h3>Навчання</h3>
+            <p>Репетитори, онлайн-уроки, індивідуальні заняття та курси.</p>
+          </article>
+          <article class="info-card">
+            <h3>Інші послуги</h3>
+            <p>Будь-які сервіси, де клієнту потрібно вибрати послугу, дату, час і зручний формат.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="why">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Чому це зручно</span>
+          <h2>Переваги для клієнта</h2>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card">
+            <span>01</span>
+            <h3>Швидкий вибір</h3>
+            <p>Не потрібно телефонувати — все видно одразу на сайті.</p>
+          </article>
+          <article class="step-card">
+            <span>02</span>
+            <h3>Зрозумілий процес</h3>
+            <p>Кроки запису прості, а доступний час показаний у зручному вигляді.</p>
+          </article>
+          <article class="step-card">
+            <span>03</span>
+            <h3>Контроль заявки</h3>
+            <p>Після відправки клієнт одразу бачить підтвердження дії.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="book">
+      <div class="container form-layout">
+        <div>
+          <span class="section-tag">Онлайн-запис</span>
+          <h2>Оформіть заявку на послугу</h2>
+          <p>Демонстраційна форма імітує справжній запис: перевіряє поля і показує повідомлення про успіх.</p>
+        </div>
+
+        <form class="demo-form" id="bookingForm" novalidate>
+          <div class="form-group">
+            <label for="clientName">Ім’я</label>
+            <input id="clientName" name="clientName" type="text" placeholder="Ваше ім’я" required />
+            <small class="error"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="clientContact">Телефон або email</label>
+            <input id="clientContact" name="clientContact" type="text" placeholder="Телефон або email" required />
+            <small class="error"></small>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="clientDate">Дата</label>
+              <input id="clientDate" name="clientDate" type="date" required />
+              <small class="error"></small>
+            </div>
+            <div class="form-group">
+              <label for="clientTime">Час</label>
+              <input id="clientTime" name="clientTime" type="time" required />
+              <small class="error"></small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="clientService">Послуга</label>
+            <select id="clientService" name="clientService" required>
+              <option value="">Оберіть послугу</option>
+              <option value="Консультація">Консультація</option>
+              <option value="Доглядова послуга">Доглядова послуга</option>
+              <option value="Урок / заняття">Урок / заняття</option>
+              <option value="Сервісна послуга">Сервісна послуга</option>
+            </select>
+            <small class="error"></small>
+          </div>
+
+          <button class="btn btn-primary full" type="submit">Підтвердити запис</button>
+          <p class="form-note">* Демонстраційна форма для показу роботи інтерфейсу.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>ASAPio</strong>
+        <p>Сторінка клієнта для універсального сервісу онлайн-запису.</p>
+      </div>
+      <div class="footer-note">
+        © Лобанова Катерина, 2026, k.lobanova_femp_14_22_b_d@knute.edu.ua
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
