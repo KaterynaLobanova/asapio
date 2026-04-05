@@ -21,7 +21,7 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="index.html" aria-label="ASAPio home">
-        <span class="brand-mark">A</span>
+        <span class="brand-mark"><img src="asapio-logo.svg" alt="Логотип ASAPio" /></span>
         <span class="brand-text">
           <strong>ASAPio</strong>
           <small>smart booking platform</small>
@@ -249,7 +249,7 @@
           <span class="section-tag">Демо-заявка</span>
           <h2>Залиште заявку на підключення ASAPio</h2>
           <p>
-            Це навчальний, але інтерактивний макет: форма перевіряє поля й показує повідомлення про успішне надсилання.
+            Це навчальний, але інтерактивний макет: форма перевіряє поля й показує повідомлення про успішне надсилання заявки на підключення сервісу.
           </p>
         </div>
 
@@ -280,14 +280,8 @@
           </div>
 
           <div class="form-group">
-            <label for="service">Послуга</label>
-            <select id="service" name="service" required>
-              <option value="">Оберіть послугу</option>
-              <option value="Консультація">Консультація</option>
-              <option value="Навчальна послуга">Навчальна послуга</option>
-              <option value="Сервісне обслуговування">Сервісне обслуговування</option>
-              <option value="Індивідуальний запис">Індивідуальний запис</option>
-            </select>
+            <label for="businessType">Формат бізнесу</label>
+            <input id="businessType" name="businessType" type="text" placeholder="Наприклад: салон, студія, консультації" required />
             <small class="error"></small>
           </div>
 
